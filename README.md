@@ -51,4 +51,4 @@ This script will execute the training and evaluation processes of the UniRec mod
 
 
 ## Hyperparameters
-All hyperparameters are saved in the /configs directory.
+All hyperparameters are saved in the `/configs` directory.
