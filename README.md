@@ -13,7 +13,6 @@ The code runs well under python 3.9.13. The required packages are as follows:
 - scipy==1.10.1
 - pandas==1.5.3
 - keras==2.11.0
-- seaborn==0.13.2
 - tqdm==4.65.0
 - toolz==0.12.0
 - tqdm==4.65.0
