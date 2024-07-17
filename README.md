@@ -1,8 +1,16 @@
-# UniRec
+# UniRec: A Dual Enhancement of Uniformity and Frequency in Sequential Recommendations
 
-UniRec is a novel bidirectional enhancement sequential recommendation method. 
+This repository provides the code of experiments from the paper, which has been accepted by 33rd ACM International Conference on
+Information and Knowledge Management (CIKM 2024). The paper is available online on [arXiv](https://arxiv.org/abs/2406.18470).
 
-Our code structure is based on the [mojito](https://github.com/deezer/sigir23-mojito) article.
+Our code structure is based on the [mojito](https://github.com/deezer/sigir23-mojito).
+
+## Abstract
+Representation learning in sequential recommendation is critical for accurately modeling user interaction patterns and improving recommendation precision. However, existing approaches predominantly emphasize item-to-item transitions, often neglecting the time intervals between interactions, which are closely related to behavior pattern changes. Additionally, broader interaction attributes, such as item frequency, are frequently overlooked. We found that both sequences with more uniform time intervals and items with higher frequency yield better prediction performance. Conversely, non-uniform sequences exacerbate user interest drift and less-frequent items are difficult to model due to sparse sampling, presenting unique challenges inadequately addressed by current methods. In this paper, we propose UniRec, a novel bidirectional enhancement sequential recommendation method. UniRec leverages sequence uniformity and item frequency to enhance performance, particularly improving the representation of non-uniform sequences and less-frequent items. These two branches mutually reinforce each other, driving comprehensive performance optimization in complex sequential recommendation scenarios. Additionally, we present a multidimensional time module to further enhance adaptability. To the best of our knowledge, UniRec is the first method to utilize the characteristics of uniformity and frequency for feature augmentation. Comparing with eleven advanced models across four datasets, we demonstrate that UniRec outperforms SOTA models significantly.
+<p align="center">
+  <img height="500" src="unirec.png">
+</p>
+
 
 ## Environment Requirement
 
